@@ -1,0 +1,55 @@
+# Xcode
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Build
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+# Podfile.lock はコミットすることを推奨（依存関係の固定）
+# Podfile.lock
+
+# Swift Package Manager
+.build/
+# Package.resolved はコミットすることを推奨
+# *.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# 環境変数・シークレット
+.env
+*.env.local
+Secrets.swift
+Config.xcconfig
+
+# その他
+*.log
